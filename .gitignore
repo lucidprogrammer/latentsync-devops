@@ -1,0 +1,8 @@
+**/.terraform/*
+**/.git/*
+*.zip
+
+backend.tf
+terraform.tfstate
+terraform.tfvars
+Outputs.md

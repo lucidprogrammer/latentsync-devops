@@ -1,0 +1,12 @@
+# Example Terraform variables file
+# Copy to terraform.tfvars and customize
+
+# Required variables
+project_id     = "your-gcp-project-id"
+
+# Optional variables with defaults
+project_prefix = "myorg"  # Organization prefix for resource naming
+region         = "us-central1"
+gpu_type       = "nvidia-l4"  # Options: nvidia-l4, nvidia-a100-40gb
+max_instances  = 10
+gpu_zonal_redundancy_disabled = false
